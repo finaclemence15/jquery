@@ -36,8 +36,14 @@
 //       alert("This is an image.");
 //     });
 //   });
-$(document).ready(function() {
+// $(document).ready(function() {
+//     $("p").click(function() {
+//       $("img").show();
+//     });
+//   });
+  $(document).ready(function() {
     $("p").click(function() {
-      $("img").show();
+      $(".walrus-showing").toggle();
+      $(".walrus-hidden").toggle();
     });
   });
